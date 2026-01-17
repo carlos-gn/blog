@@ -1,0 +1,26 @@
+base_url = "https://carlosgn.com"
+title = "Carlos GN"
+description = "Tech, programming, and personal thoughts"
+theme = "anemone"
+compile_sass = false
+generate_feeds = true
+feed_filenames = ["rss.xml"]
+generate_sitemap = true
+
+taxonomies = [
+    {name = "tags", feed = true},
+]
+
+[markdown]
+render_emoji = true
+
+[extra]
+author = "Carlos GN"
+favicon = "favicon.ico"
+list_pages = true
+
+header_nav = [
+    { url = "/", name_en = "/home/" },
+    { url = "/blog", name_en = "/blog/" },
+    { url = "/about", name_en = "/about/" },
+]
